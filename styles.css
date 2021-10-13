@@ -150,3 +150,17 @@ footer:hover {
     background-color: #bfedb4;
     margin-right: 10px;
 }
+
+#myContainer {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    background: yellow;
+}
+
+#myAnimation {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background-color: red;
+}
