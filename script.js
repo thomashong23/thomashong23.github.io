@@ -38,17 +38,22 @@ function fontSizeNav() {
 var id = null;
 function myMove() {
   var elem = document.getElementById("myAnimation");
-  var pos = 0;
+  var posL = document.getElementById("buttonMove").left;
+  var posT = document.getElementById("buttonMove").top;
   clearInterval(id);
   id = setInterval(frame, 10);
   function frame() {
-    if (pos == 350) {
-      clearInterval(id);
-    } else {
-      pos++;
-      elem.style.top = pos + 'px';
-      elem.style.left = pos + 'px';
-
+    if (posL < (document.getElementById("buttonMove").left + 1000)) {
+      posT++;
     }
-  }
-}
+    if (posT == document.getElementById("buttonMove").top && posL == document.getElementById("buttonMove").left) {
+      clearInterval(id);
+      //   } else {
+      //     pos++;
+      //     elem.style.top = pos + 'px';
+      //     elem.style.left = pos + 'px';
+
+      //   }
+      // }
+    }
+
