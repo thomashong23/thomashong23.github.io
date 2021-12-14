@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    font-family: 'Architects Daughter', cursive;
+    text-decoration: none;
+    text-decoration-color: none;
+    color: #225815;
+}
+
+#bigcontainer {
+    margin-top: 80px;
+}
+
+.unselectedspan {
+    width: 33.33%;
+    float: left;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #bfedb4;
+    text-decoration: none;
+    font-size: 18px;
+    /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+    text-align: center;
+    /* If you want the text to be centered */
+    transition: 0.5s;
+    color: #225815;
+}
+
+.unselectedspan:hover {
+    font-size: 24px;
+    padding-bottom: 24px;
+    padding-top: 27px;
+}
+
+.unselectedspan:hover {
+    background-color: #8ade76;
+    box-shadow: 0px 5px 5px black;
+    cursor: default;
+    color: white;
+    font-stretch: 100%;
+    text-emphasis-style: bold;
+}
+
+nav:hover {
+    cursor: default;
+}
+
+#selectedspan {
+    background-color: #5ca34b;
+    width: 33.33%;
+    float: left;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-decoration: none;
+    font-size: 18px;
+    /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+    text-align: center;
+    /* If you want the text to be centered */
+}
+
+a:hover {
+    cursor: default;
+}
+
+a:active {
+    cursor: pointer;
+}
+
+#soccer {
+    width: 500px;
+    /* width of container */
+    height: 700px;
+    /* height of container */
+    object-fit: contain;
+    display: inline;
+    border-radius: 6px;
+    border-style: inset;
+    border-color: #edb4bf;
+    margin: 5px;
+    background-size: cover;
+}
+
+#content {
+    display: flex;
+}
+
+nav {
+    width: 100%;
+    overflow: auto;
+    box-shadow: 0px 2px 5px 1px black;
+    z-index: 1;
+    position: fixed;
+    top: 0px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+#firstp {
+    margin-left: 10px;
+    width: 900px;
+    margin-top: 25px;
+}
+
+#secondp {
+    margin-left: 10px;
+    width: 900px;
+    margin-top: 200px;
+}
+
+#paragraph {
+    display: flex;
+    flex-direction: column;
+}
+
+.across {
+    z-index: 0;
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    border-radius: 4px;
+    background-color: #f7dde2;
+}
+
+.across:nth-of-type(2n) {
+    background-color: #edb4bf;
+}
+
+footer {
+    width: 100%;
+    overflow: auto;
+    text-align: center;
+    background-color: #bfedb4;
+    font-family: 'Architects Daughter', cursive;
+    padding: 10px;
+}
+
+footer:hover {
+    background-color: #8ade76;
+    box-shadow: 0px 5px 5px black;
+    cursor: default;
+}
+
+.projimage {
+    position: relative;
+    padding: 120px;
+    border-radius: 10px;
+    background-color: #bfedb4;
+    margin-right: 10px;
+}
+
+#myContainer {
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    background: yellow;
+}
+
+#myAnimation {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background-color: red;
+}
