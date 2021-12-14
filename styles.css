@@ -6,7 +6,7 @@
 a {
     font-family: 'Architects Daughter', cursive;
     text-decoration: none;
-    text-decoration-color: none;
+
     color: #225815;
 }
 
@@ -145,10 +145,11 @@ footer:hover {
 
 .projimage {
     position: relative;
-    padding: 120px;
+    width: 30%;
     border-radius: 10px;
     background-color: #bfedb4;
     margin-right: 10px;
+
 }
 
 #myContainer {
